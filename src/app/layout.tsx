@@ -48,10 +48,10 @@ export default function RootLayout({
                 <a href="https://jbeck.itch.io/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                   itch.io
                 </a>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                <a href="https://github.com/JohnBeck19" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                   GitHub
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                <a href="https://www.linkedin.com/in/john-beck-1436ab2ba/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                   LinkedIn
                 </a>
               </div>

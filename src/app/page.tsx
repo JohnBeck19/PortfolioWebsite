@@ -173,6 +173,9 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/john-beck-1436ab2ba/" target="_blank" rel="noopener noreferrer" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
               Connect on LinkedIn
             </a>
+            <a href="https://github.com/JohnBeck19" target="_blank" rel="noopener noreferrer" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+              View GitHub
+            </a>
           </div>
           <a href="/resume/john-beck-resume.pdf" download className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 border border-purple-500/50 mt-8">
             Download Resume
