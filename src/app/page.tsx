@@ -13,7 +13,7 @@ export default function Home() {
       description: "A 2D platforming fishing game where you navigate through challenging levels while mastering the art of fishing. As the lead artist, I'm crafting the visual style and animations for this upcoming Steam release.",
       tags: ["2D Platformer", "Fishing", "Steam", "In Development", "Unity"],
       link: "#",
-      images: []
+      images: ["/projects/hop-and-hook/1.png", "/projects/hop-and-hook/2.png", "/projects/hop-and-hook/3.png"]
     },
     {
       id: "opie",
