@@ -10,9 +10,9 @@ export default function Home() {
     {
       id: "hop-and-hook",
       title: "Hop and Hook",
-      description: "A 2D platforming fishing game where you navigate through challenging levels while mastering the art of fishing. As the lead artist, I'm crafting the visual style and animations for this upcoming Steam release.",
-      tags: ["2D Platformer", "Fishing", "Steam", "In Development", "Unity"],
-      link: "#",
+      description: "A 2D platforming fishing game where you navigate through challenging levels while mastering the art of fishing. As the lead artist, I crafted the visual style and animations for this Steam release. Swing with your rod, explore open-ended zones, and catch over 100 unique fish—some of which fight back in reactive boss encounters.",
+      tags: ["2D Platformer", "Fishing", "Steam", "Released", "Unity"],
+      link: "https://store.steampowered.com/app/3781950/Hop_n_Hook/",
       images: ["/projects/hop-and-hook/1.png", "/projects/hop-and-hook/2.png", "/projects/hop-and-hook/3.png"]
     },
     {
@@ -129,7 +129,9 @@ export default function Home() {
                     {project.link !== "#" && (
                       <a href={project.link} target="_blank" rel="noopener noreferrer" 
                         className="inline-block text-purple-400 hover:text-purple-300 transition-colors">
-                        {project.link.includes("itch.io") ? "Play on itch.io →" : "View Project →"}
+                        {project.link.includes("itch.io") ? "Play on itch.io →" : 
+                         project.link.includes("steampowered.com") ? "View on Steam →" : 
+                         "View Project →"}
                       </a>
                     )}
                   </div>
