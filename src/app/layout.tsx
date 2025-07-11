@@ -17,23 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-black`}>
-        {/* Navigation */}
-        <nav className="fixed w-full bg-black/80 backdrop-blur-sm z-50 shadow-sm border-b border-purple-500/20">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between h-16">
-              <a href="#" className="text-xl font-bold text-white">John Beck</a>
-              <div className="hidden md:flex space-x-8">
-                <a href="#about" className="text-gray-300 hover:text-purple-400 transition-colors">About</a>
-                <a href="#projects" className="text-gray-300 hover:text-purple-400 transition-colors">Projects</a>
-                <a href="#skills" className="text-gray-300 hover:text-purple-400 transition-colors">Skills</a>
-                <a href="#contact" className="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-
         {/* Main Content */}
-        <div className="pt-16">
+        <div>
           {children}
         </div>
 
